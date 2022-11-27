@@ -29,7 +29,17 @@ python train_student.py --alpha 0.9 --beta 450 --save_folder ./savedata/SK --tea
 
 ## Reference
 
+If you use this our codes in your research, please cite our paper and the related references in your publication as:
+```bash
+@article{,
+  title={},
+  author={},
+  journal={arXiv preprint},
+  year={2022}
+}
 ```
+If you use the SCCNet model, please cite the following:
+```bash
 @inproceedings{wei2019spatial,
   title={Spatial component-wise convolutional network (SCCNet) for motor-imagery EEG classification},
   author={Wei, Chun-Shu and Koike-Akino, Toshiaki and Wang, Ye},
@@ -39,29 +49,39 @@ python train_student.py --alpha 0.9 --beta 450 --save_folder ./savedata/SK --tea
   organization={IEEE}
 }
 ```
-
-```
-@article{lawhern2018eegnet,
-  title={EEGNet: a compact convolutional neural network for EEG-based brain--computer interfaces},
-  author={Lawhern, Vernon J and Solon, Amelia J and Waytowich, Nicholas R and Gordon, Stephen M and Hung, Chou P and Lance, Brent J},
-  journal={Journal of neural engineering},
+If you use the EEGNet model, please cite the following:
+```bash
+@article{Lawhern2018,
+  author={Vernon J Lawhern and Amelia J Solon and Nicholas R Waytowich and Stephen M Gordon and Chou P Hung and Brent J Lance},
+  title={EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces},
+  journal={Journal of Neural Engineering},
   volume={15},
   number={5},
   pages={056013},
-  year={2018},
-  publisher={IOP Publishing}
+  url={http://stacks.iop.org/1741-2552/15/i=5/a=056013},
+  year={2018}
+}
+```
+If you use the ShalowConvNet model, please cite the following:
+```bash
+@article{hbm23730,
+author = {Schirrmeister Robin Tibor and 
+          Springenberg Jost Tobias and 
+          Fiederer Lukas Dominique Josef and 
+          Glasstetter Martin and 
+          Eggensperger Katharina and 
+          Tangermann Michael and 
+          Hutter Frank and 
+          Burgard Wolfram and 
+          Ball Tonio},
+title = {Deep learning with convolutional neural networks for EEG decoding and visualization},
+journal = {Human Brain Mapping},
+volume = {38},
+number = {11},
+pages = {5391-5420},
+keywords = {electroencephalography, EEG analysis, machine learning, end‐to‐end learning, brain–machine interface, brain–computer interface, model interpretability, brain mapping},
+doi = {10.1002/hbm.23730},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.23730}
 }
 ```
 
-```
-@article{schirrmeister2017deep,
-  title={Deep learning with convolutional neural networks for EEG decoding and visualization},
-  author={Schirrmeister, Robin Tibor and Springenberg, Jost Tobias and Fiederer, Lukas Dominique Josef and Glasstetter, Martin and Eggensperger, Katharina and Tangermann, Michael and Hutter, Frank and Burgard, Wolfram and Ball, Tonio},
-  journal={Human brain mapping},
-  volume={38},
-  number={11},
-  pages={5391--5420},
-  year={2017},
-  publisher={Wiley Online Library}
-}
-```
